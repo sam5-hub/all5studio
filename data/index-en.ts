@@ -1,21 +1,16 @@
-export const heroMap = {
-  title: "使用 Next.js 和 Framer Motion 进行动态 Web 魔法",
-  intro: "你好！ 我是 Sam，是 @ALL5 Studio 的 Node 和 Next.js 全栈开发人员。",
-  slogan: "将概念转化为无缝的 用户体验",
-};
 export const navItems = [
-  { name: "主页", link: "#" },
-  { name: "关于", link: "#about" },
-  { name: "项目", link: "#projects" },
-  { name: "客户", link: "#testimonials" },
-  { name: "联系我", link: "#contact" },
+  { name: "Home", link: "#" },
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "我优先考虑客户合作，促进开放式沟通",
-    description: "I constantly try to improve",
+    title: "I prioritize client collaboration, fostering open communication ",
+    description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -24,8 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "世界各地时区通信非常灵活",
-    description: "I constantly try to improve",
+    title: "I'm very flexible with time zone communications",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -34,7 +29,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "我的技术栈",
+    title: "My tech stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -44,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "技术爱好者，对开发充满热情。",
+    title: "Tech enthusiast with a passion for development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -55,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "目前正在构建一个AI项目",
+    title: "Currently building a JS Animation library",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -65,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "你想一起开始一个项目吗?",
+    title: "Do you want to start a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -78,15 +73,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "探索 3D 太阳系行星",
-    des: "使用 Three.js 对行星进行迷人的 3D 模拟，探索太阳系的奇迹。",
+    title: "3D Solar System Planets to Explore",
+    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - 视频会议应用程序",
+    title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
@@ -102,7 +97,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "动画 Apple Iphone 3D 网站",
+    title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
