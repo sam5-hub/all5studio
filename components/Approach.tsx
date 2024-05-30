@@ -7,17 +7,15 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        项 目 <span className="text-purple"> 三 步 曲</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="规划与战略"
+          icon={<AceternityIcon order="阶段 1" />}
+          des="我们将合作规划您的网站目标、目标受众和关键功能。我们将讨论网站结构、导航和内容要求等内容。"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="开发与进度更新"
+          icon={<AceternityIcon order="阶段 2" />}
+          des="一旦我们就计划达成一致，我就会启动我的计划列表并开始编码。从最初的草图到完善的代码，我会随时向您通报每一步进展。"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="开发 & 部署 & 运维"
+          icon={<AceternityIcon order="阶段 3" />}
+          des="这就是奇迹发生的地方！根据批准的设计，我会将所有内容转化为功能代码，从头开始构建您的网站"
         >
           <CanvasRevealEffect
             animationSpeed={3}
